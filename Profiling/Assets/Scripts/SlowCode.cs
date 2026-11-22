@@ -11,7 +11,7 @@ public class SlowCode : MonoBehaviour
     void Update()
     {
         GetComponent<Renderer>().material.color = ColorForTime();
-        DoLoopStuff();
+        // DoLoopStuff();
         DoSomethingElse();
     }
 
@@ -40,6 +40,6 @@ public class SlowCode : MonoBehaviour
 
     private void DoSomethingElse()
     {
-        Debug.Log("look how slow logging is!");
+        // Debug.Log("look how slow logging is!");
     }
 }
